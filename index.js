@@ -1,4 +1,3 @@
-var assertErr = require('assert-err')
 
 module.exports = stringReduce
 
@@ -11,7 +10,8 @@ module.exports = stringReduce
  */
 function stringReduce (string, reducerCallback, initialValue) {
   if (string.length === 0) {
-    assertErr(initialValue, TypeError, 'Reduce of empty string with no initial value')
+
+    console.error('Reduce of empty string with no initial value')
     return initialValue
   }
   var initialValuePassed = arguments.length === 3

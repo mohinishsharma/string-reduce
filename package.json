@@ -6,9 +6,7 @@
   "directories": {
     "test": "__test__"
   },
-  "dependencies": {
-    "assert-err": "^1.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jest": "^19.0.0"
   },
